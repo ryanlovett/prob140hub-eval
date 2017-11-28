@@ -8,10 +8,11 @@ clusters:
 
 fileservers:
   - name: 1
-    machineType: n1-highcpu-32
-    dataDiskSizeGb: 4000
+    machineType: n1-highmem-8
+    dataDiskSizeGb: 1500
     zone: us-central1-a
 
-project: data8x-scratch
+# "Probability for Data Science" in berkeley.edu
+project: striped-acrobat-186800
 admins:
-  - YuviPanda@gmail.com
+  - rylo@berkeley.edu

@@ -56,7 +56,7 @@ resources:
            #!/bin/bash
            CLONE_PATH=/var/lib/ansible
            sudo apt-get install --yes ansible git
-           sudo git clone http://github.com/berkeley-dsep-infra/data8xhub ${CLONE_PATH}
+           sudo git clone http://github.com/ryanlovett/prob140hub-eval ${CLONE_PATH}
            sudo ansible-playbook -c local -i localhost, ${CLONE_PATH}/ansible/playbook.yml
     disks:
     - deviceName: boot
